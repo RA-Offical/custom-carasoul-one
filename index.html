@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+		<!-- link to font awesome icons -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- link to styles -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<!-- Carasoul -->
+		<div class="carasoul-wrapper">
+			<!-- button previous -->
+			<button class="carasoul__btn carasoul__prev--btn">
+				<i class="fa-solid fa-angle-left"></i>
+			</button>
+
+			<ul role="carasoul" class="carasoul">
+				<li class="carasoul-slide">
+					<div class="carasoul-img-container">
+						<img
+							src="./images/img-1.jpg"
+							alt=""
+							class="carasoul__img"
+						/>
+					</div>
+
+					<h2 class="carasoul-slide__name">Blanche Person</h2>
+					<p class="carasoul-slide__position">Sales Manager</p>
+
+					<p class="carasoul-slide__desc">
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Nobis voluptate incidunt quisquam rem modi placeat
+						illo quia. Ea, iste deleniti.
+					</p>
+				</li>
+
+				<li class="carasoul-slide">
+					<div class="carasoul-img-container">
+						<img
+							src="./images/img-2.jpg"
+							alt=""
+							class="carasoul__img"
+						/>
+					</div>
+
+					<h2 class="carasoul-slide__name">Arslan</h2>
+					<p class="carasoul-slide__position">Web Developer</p>
+					<p class="carasoul-slide__desc">
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Nobis voluptate incidunt quisquam rem modi placeat
+						illo quia. Ea, iste deleniti.
+					</p>
+				</li>
+
+				<li class="carasoul-slide">
+					<div class="carasoul-img-container">
+						<img
+							src="./images/img-3.jpg"
+							alt=""
+							class="carasoul__img"
+						/>
+					</div>
+
+					<h2 class="carasoul-slide__name">React Developer</h2>
+					<p class="carasoul-slide__position">Izzah</p>
+					<p class="carasoul-slide__desc">
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Nobis voluptate incidunt quisquam rem modi placeat
+						illo quia. Ea, iste deleniti.
+					</p>
+				</li>
+
+				<li class="carasoul-slide">
+					<div class="carasoul-img-container">
+						<img
+							src="./images/img-4.jpg"
+							alt=""
+							class="carasoul__img"
+						/>
+					</div>
+
+					<h2 class="carasoul-slide__name">Rashid</h2>
+					<p class="carasoul-slide__position">
+						Block Chain Developer
+					</p>
+					<p class="carasoul-slide__desc">
+						Lorem ipsum dolor sit amet consectetur, adipisicing
+						elit. Nobis voluptate incidunt quisquam rem modi placeat
+						illo quia. Ea, iste deleniti.
+					</p>
+				</li>
+			</ul>
+			<!-- button next -->
+			<button class="carasoul__btn carasoul__next--btn">
+				<i class="fa-solid fa-angle-right"></i>
+			</button>
+		</div>
+
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
